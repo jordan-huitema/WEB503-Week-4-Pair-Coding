@@ -9,6 +9,7 @@ body {
 #body {
     width: 750px;
     margin: auto;
+
 }
 /* Added colours, alignment, border and a background to the header. 
 Set the width of the header so it looks nicer on the page */
@@ -18,7 +19,7 @@ Set the width of the header so it looks nicer on the page */
     border: 5px solid pink;
     padding: 5px;
     background: purple;
-    width: 100%;
+    flex-grow: 1;
 }
 /* added a flex to the unordered list */
  ul {
