@@ -1,3 +1,28 @@
+/* Formatted styling for the heading
+used display flex, to use flexbox */
+/*  */
+#header { 
+    display: flex;
+    width: 100%;
+    align-items: baseline;
+    border: 5px solid pink;
+    padding: 5px;
+}
+ ul {
+    display: flex;
+    
+}
+ h1 {
+    flex-grow: 10;
+    margin: 10px 0 10px 0
+}
+
+ li {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+
 th, td {
     border: 5px solid black
 }
