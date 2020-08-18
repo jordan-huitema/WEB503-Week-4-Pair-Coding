@@ -21,21 +21,14 @@ Set the width of the header so it looks nicer on the page */
     background: purple;
     flex-grow: 1;
 }
-/* added a flex to the unordered list */
- ul {
-    display: flex;
-    
- }
+
+
  /* added a ID to h1 tag to control it's margins and to have a responsive auto positioning with flex grow */
- h1 {
+ #header h1 {
     flex-grow: 10;
     margin: 10px 0 10px 0
 }
 
- li {
-    margin-left: 10px;
-    margin-right: 10px;
-}
 
 
 th, td {
