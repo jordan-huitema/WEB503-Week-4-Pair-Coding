@@ -1,12 +1,21 @@
 /* Formatted styling for the heading
 used display flex, to use flexbox */
 /*  */
+body {
+    font-family: "comic sans ms";
+    margin: 0;
+}
+#body {
+    width: 750px;
+    margin: auto;
+}
 #header { 
     display: flex;
     width: 100%;
     align-items: baseline;
     border: 5px solid pink;
     padding: 5px;
+    background: purple;
 }
  ul {
     display: flex;
