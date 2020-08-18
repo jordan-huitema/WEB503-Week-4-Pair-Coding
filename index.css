@@ -1,6 +1,7 @@
 /* Formatted styling for the heading
 used display flex, to use flexbox */
-/*  */
+
+/*Made a body id to style the rest of the page after the heading  */
 body {
     font-family: "comic sans ms";
     margin: 0;
@@ -9,18 +10,22 @@ body {
     width: 750px;
     margin: auto;
 }
+/* Added colours, alignment, border and a background to the header. 
+Set the width of the header so it looks nicer on the page */
 #header { 
     display: flex;
-    width: 100%;
     align-items: baseline;
     border: 5px solid pink;
     padding: 5px;
     background: purple;
+    width: 100%;
 }
+/* added a flex to the unordered list */
  ul {
     display: flex;
     
-}
+ }
+ /* added a ID to h1 tag to control it's margins and to have a responsive auto positioning with flex grow */
  h1 {
     flex-grow: 10;
     margin: 10px 0 10px 0
